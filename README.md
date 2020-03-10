@@ -20,6 +20,12 @@ docker-compose build
 docker-compose up -d 
 ```
 
+### Run composer's commands
+```
+docker-compose exec php bash
+composer install
+```
+
 ### To stop docker-compose
 ```
 docker-compose stop
